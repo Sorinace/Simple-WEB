@@ -1,0 +1,116 @@
+/*Color scheme:
+    * #3d5a80 - Purple Navy
+    * #98c1d9 - Pale Cerulean
+    * #e0fbfc - Light Cyan
+    * #ee6c4d - Light Red Ochre
+    * #293241 - Gunmetal
+*/
+
+
+/*reduce the with of text*/
+
+* {
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+}
+
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3d5a80;
+    color: #fff;
+    padding: 0 0 6px 0;
+}
+
+header h1 {
+    /* color: #fe4f4f; */
+    padding-top: 41px;
+    margin: 0 0 5px 0;
+}
+
+ul {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+h2 {
+    padding-top: 30px;
+    margin: 0 50px;
+}
+
+article {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+/* style for main navigation buttons*/
+
+nav {
+    text-align: center;
+    clear: both;
+    background-color: #3d5a80;
+    padding-top: 6px;
+    z-index: 10;
+}
+
+h2,
+#top-menu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    /*width: 100px;*/
+}
+
+nav a {
+    text-decoration-line: none;
+    padding: 5px;
+    background-color: #ee6c4d;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #e0fbfc;
+    /* #3d5a80;*/
+    text-transform: uppercase;
+    color: #293241;
+}
+
+
+/* main page */
+
+article {
+    background-color: #e0fbfc;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #293241;
+    height: 50px;
+}
+
+footer nav {
+    background-color: #293241;
+    padding-top: 0px;
+}
