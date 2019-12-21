@@ -63,7 +63,7 @@ article {
 nav {
     text-align: center;
     clear: both;
-    background-color: #3d5a80;
+    background-color: #293241;
     padding-top: 6px;
     z-index: 10;
 }
@@ -84,15 +84,15 @@ nav li {
 nav a {
     text-decoration-line: none;
     padding: 5px;
-    background-color: #ee6c4d;
+    background-color: #3d5a80;
     color: #fff;
 }
 
 nav a:hover {
-    background-color: #e0fbfc;
+    background-color: #ee6c4d;
     /* #3d5a80;*/
     text-transform: uppercase;
-    color: #293241;
+    color: #fff;
 }
 
 
@@ -100,6 +100,117 @@ nav a:hover {
 
 article {
     background-color: #e0fbfc;
+}
+
+a {
+    text-decoration-line: none;
+    color: #3d5a80;
+}
+
+a:hover {
+    color: #ee6c4d;
+}
+
+
+/* columns at Cabinet */
+
+.column {
+    display: inline-block;
+    width: 415px;
+    height: 350px;
+    vertical-align: top;
+    padding: 5px 15px 25px 15px;
+    margin: 3px 0;
+    background-color: #98c1d9;
+}
+
+
+/* cabinet */
+
+.panel-image {
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.panel-image-prop {
+    padding-top: 35%
+}
+
+
+/*Slideshows for activitati*/
+
+* {
+    box-sizing: border-box
+}
+
+.mySlides1,
+.mySlides2,
+.mySlides3,
+.mySlides4 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a grey background color */
+
+.prev:hover,
+.next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.adress img {
+    max-width: 800px;
+    height: auto;
+    margin: 10px 50px;
+}
+
+.qr img {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin: 10px;
 }
 
 
